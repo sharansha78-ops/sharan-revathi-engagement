@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="46" stroke="#C69C45" stroke-width="2" stroke-dasharray="4 2"/>
+  <circle cx="50" cy="50" r="42" stroke="#89621F" stroke-width="1"/>
+  <circle cx="50" cy="50" r="40" fill="#721D2B"/>
+  <!-- Decorative lotus petal on top -->
+  <path d="M50 16 C53 22, 57 24, 50 30 C43 24, 47 22, 50 16 Z" fill="#E8A5AD"/>
+  <path d="M44 20 C40 24, 43 28, 48 29 C46 25, 45 22, 44 20 Z" fill="#C69C45"/>
+  <path d="M56 20 C60 24, 57 28, 52 29 C54 25, 55 22, 56 20 Z" fill="#C69C45"/>
+  <!-- Gold Monogram SA -->
+  <text x="50" y="62" font-family="'Cinzel', serif" font-size="28" font-weight="bold" fill="#F6EAD3" text-anchor="middle" letter-spacing="1">S<tspan fill="#C69C45">&amp;</tspan>A</text>
+  <path d="M30 68 Q50 74 70 68" stroke="#C69C45" stroke-width="1.5" fill="none"/>
+  <circle cx="50" cy="71" r="2" fill="#C69C45"/>
+</svg>
