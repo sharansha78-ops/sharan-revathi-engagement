@@ -158,7 +158,7 @@ export const HeroSection: React.FC = () => {
           initial={{ scale: 0.95, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.9, duration: 0.9, ease: 'easeOut' }}
-          className="relative w-full max-w-md mx-auto rounded-3xl overflow-hidden shadow-[0_20px_55px_rgba(73,51,31,0.25)] border-2 border-[#C69C45] bg-[#F6EAD3] group"
+          className="relative w-full max-w-xl mx-auto rounded-3xl overflow-hidden shadow-[0_20px_55px_rgba(73,51,31,0.25)] border-2 border-[#C69C45] bg-[#F6EAD3] group"
         >
           {/* Ornate corner traditional flourishes */}
           <div className="corner-ornament-tl border-t-2 border-l-2 border-[#C69C45] z-10" />
@@ -178,11 +178,11 @@ export const HeroSection: React.FC = () => {
 
           <div className="p-3 sm:p-4 bg-gradient-to-r from-[#FFF5E6] via-[#F6EAD3] to-[#FFF5E6] border-t border-[#C69C45]/50 flex items-center justify-between px-4 sm:px-6">
             <span className="font-cinzel text-xs sm:text-sm text-[#721D2B] font-bold">
-              {weddingConfig.couple.bride.name}
+              {weddingConfig.couple.groom.name}
             </span>
             <span className="text-[#C69C45] text-xs">❦</span>
             <span className="font-cinzel text-xs sm:text-sm text-[#721D2B] font-bold">
-              {weddingConfig.couple.groom.name}
+              {weddingConfig.couple.bride.name}
             </span>
           </div>
         </motion.div>
